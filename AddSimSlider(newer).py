@@ -16,6 +16,7 @@ from sims.sim_info_base_wrapper import SimInfoBaseWrapper
 from objects.object_enums import ResetReason
 from objects import ALL_HIDDEN_REASONS
 
+#First Comment for documentation
 @sims4.commands.Command('add_slider', command_type=sims4.commands.CommandType.Live)
 def randomize_facial_attributes(modifierstring:str, amount:float, opt_sim:OptionalSimInfoParam=None, _connection=None):
     output = sims4.commands.CheatOutput(_connection)
